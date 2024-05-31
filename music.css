@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.app{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    margin: 50px 0px 30px 0px;
+    text-align: center;
+    font-size: 40px;
+}
+
+header p{
+    font-size: 20px;
+}
+
+.pads{
+    background-color: aqua;
+    width: 100%;
+
+}
+
+.pads > div{
+    height: 100px;
+    width: 100px;
+    display: flex;
+}
+
+.pad1{
+    background: rgba(240, 5, 5, 0);
+}
+
+.pad2{
+    background: rgba(13, 5, 240, 0);
+}
+
+.pad3{
+    background: rgba(166, 240, 5, 0);
+}
+
+.pad4{
+    background: rgba(240, 5, 193, 0);
+}
+
+.pad5{
+    background: rgba(5, 240, 122, 0);
+}
+
+.pad6{
+    background: rgba(240, 158, 5, 0);
+}
